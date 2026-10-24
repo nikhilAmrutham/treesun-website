@@ -17,3 +17,7 @@ GitHub stores versioned prototype code. Wix Editor **does not import arbitrary s
 
 ## Browser-based review
 For eligible repositories, GitHub Pages can serve the `main` branch root after enabling it under **Settings → Pages**. Private repository Pages eligibility depends on GitHub plan; Pages is not required to edit code or use Wix. Do not publish a public preview containing confidential customer assets.
+
+## Testimonial content administration
+
+See [TESTIMONIALS-WIX.md](TESTIMONIALS-WIX.md) for the moderation workflow, suggested schema and role model. Use the Wix Dashboard as the single trusted login; do not deploy the public `#/admin` demo route as production administration.
