@@ -41,3 +41,9 @@ Use a mobile browser viewport as well as desktop. Check navigation, gallery filt
 
 ## Privacy
 Do not upload customer CAD files to this prototype. Upload controls inspect only the selected filename locally; no file is transferred or stored.
+
+## Content management demonstration
+
+Open `#/admin` on the prototype, or use **Content Admin (Demo)** in the footer. You can add, edit, approve, unpublish and delete testimonials, with approval requiring a checked customer-consent assertion. Public home page testimonials appear only when a locally saved item is published and marked consented.
+
+**Security boundary:** This demo is **not password protected** and must never be treated as a secure admin login. It stores entries only in browser `localStorage`; edits are not shared between devices and are not written to GitHub, Wix or a backend. Do not enter real personal customer information until Wix CMS and its role permissions are configured. See [TESTIMONIALS-WIX.md](TESTIMONIALS-WIX.md).
